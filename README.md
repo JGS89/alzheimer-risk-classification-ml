@@ -1,3 +1,4 @@
+````markdown
 # Alzheimer Risk Classification — Interpretable Machine Learning
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -38,10 +39,31 @@ The dataset simulates clinical, demographic, cognitive, functional, and lifestyl
 ```text
 alzheimer-risk-classification-ml/
 │
-├── notebook/
-│   └── ml_alzheimer_classification.ipynb   # Main analysis and modeling
-│
+├── .gitignore
+├── README.md
+├── requirements.txt
 ├── data/
-│   └── alzheimers_disease_data.csv          # Dataset file
-│
-└── README.md                               # Project documentation
+│   ├── .gitignore
+│   └── alzheimers_disease_data.csv
+├── notebook/
+│   ├── .gitignore
+│   └── ml_alzheimer_classification.ipynb
+└── src/
+    ├── README.md
+    ├── __init__.py
+    ├── data_processing.py
+    ├── evaluation.py
+    ├── modeling.py
+    ├── plotting.py
+    ├── utils.py
+    └── __pycache__/
+        ├── __init__.cpython-310.pyc
+        ├── data_processing.cpython-310.pyc
+        ├── evaluation.cpython-310.pyc
+        ├── modeling.cpython-310.pyc
+        ├── plotting.cpython-310.pyc
+        └── utils.cpython-310.pyc
+
+```
+
+Nota: Esta lista refleja los archivos actualmente rastreados en `HEAD`.
